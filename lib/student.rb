@@ -55,6 +55,7 @@ end
     student_new.id = row[0]
     student_new.name = row[1]
     student_new.grade = row[3]
+    student_new
   end
   
   def self.find_by_name(name)
