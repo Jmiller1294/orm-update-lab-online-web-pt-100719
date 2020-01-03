@@ -54,7 +54,7 @@ end
     student_new = self.new
     student_new.id = row[0]
     student_new.name = row[1]
-    student_new.grade = row[3]
+    student_new.grade = row[2]
     student_new
   end
   
