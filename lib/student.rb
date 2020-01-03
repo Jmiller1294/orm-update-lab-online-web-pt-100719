@@ -67,7 +67,7 @@ class Student
   end
   
   def update
-    sql = "UPDATE students SET "
+    sql = "UPDATE students SET name = ?, grade = ?, id = ?"
   end
 
 end
