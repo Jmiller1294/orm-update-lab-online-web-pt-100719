@@ -40,7 +40,7 @@ class Student
   end
   
   def self.create
-    
+    student = students.new
   end
   
   def self.new_from_db
