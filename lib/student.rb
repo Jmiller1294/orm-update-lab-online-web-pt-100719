@@ -51,10 +51,10 @@ end
   end
   
   def self.new_from_db(row)
-    student_new = self.new(row[0], row[1], row[2])
-    student_new.id = 
-    student_new.name = 
-    student_new.grade = 
+    student_new = self.new
+    student_new.id = row[0]
+    student_new.name = row[1]
+    student_new.grade = row[3]
   end
   
   def self.find_by_name(name)
